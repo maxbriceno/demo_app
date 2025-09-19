@@ -34,16 +34,16 @@ test/
 
 ## Features
 
-| Feature                     | Description                                                       | Level   |
-| --------------------------- | ----------------------------------------------------------------- | ------- |
-| **Bloc/Cubit**              | Reactive state management for a counter                           | Middle+ |
-| **goRouter**                | Navigation between Home and About screens (Web/Mobile)            | Middle+ |
-| **json\_serializable**      | Object serialization (User model)                                 | Middle+ |
-| **SharedPreferences**       | Simple local persistence                                          | Middle+ |
-| **Firebase Initialization** | Firebase setup (Auth, Firestore ready to use)                     | Middle+ |
-| **Unit Test**               | CounterCubit increment test                                       | Middle+ |
-| **Modularity**              | Logical separation of concerns (models, services, cubit, screens) | Senior  |
-| **Clean Architecture**      | Testable, scalable, easily extendable design                      | Senior  |
+| Feature                     | Description                                                       |
+| --------------------------- | ----------------------------------------------------------------- |
+| **Bloc/Cubit**              | Reactive state management for a counter                           |
+| **goRouter**                | Navigation between Home and About screens (Web/Mobile)            |
+| **json\_serializable**      | Object serialization (User model)                                 |
+| **SharedPreferences**       | Simple local persistence                                          |
+| **Firebase Initialization** | Firebase setup (Auth, Firestore ready to use)                     |
+| **Unit Test**               | CounterCubit increment test                                       |
+| **Modularity**              | Logical separation of concerns (models, services, cubit, screens) |
+| **Clean Architecture**      | Testable, scalable, easily extendable design                      |
 
 
 ## Getting Started
