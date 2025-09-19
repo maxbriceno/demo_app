@@ -1,7 +1,6 @@
 import 'package:demo_app/src/features/user/data/user_service.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:demo_app/src/features/cubit_counter/use_case/counter_cubit.dart';
-import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   //? 1 - Null Safety
