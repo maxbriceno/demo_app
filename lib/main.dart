@@ -1,8 +1,7 @@
-void main() {
-  String? mayBeNullString;
-  String notNullString = "Hello World";
+import 'package:demo_app/src/features/user/data/user_service.dart';
+import 'package:flutter/cupertino.dart';
 
-  mayBeNullString ??= "Default String Value";
-  print(notNullString.toUpperCase());
-  
+void main() {
+  UserService userService = UserService();
+  debugPrint(userService.getUserName());
 }
