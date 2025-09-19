@@ -1,6 +1,7 @@
 import 'package:demo_app/src/features/user/data/user_service.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:demo_app/src/features/cubit_counter/use_case/counter_cubit.dart';
+import 'package:go_router/go_router.dart';
 
 void main() {
   //? 1 - Null Safety
@@ -22,3 +23,18 @@ void main() {
   counterCubit.reset();
   debugPrint("Counter Value after reset: ${counterCubit.state}");
 }
+
+final GoRouter _router = GoRouter(
+  routes: [
+    GoRoute(
+      path: '/',
+      builder: (context, state) => const Text('Home Page'),
+      routes: [
+        GoRoute(
+          path: '/details',
+          builder: (context, state) => const Text('Details Page'),
+        ),
+      ],
+    ),
+  ],
+);
